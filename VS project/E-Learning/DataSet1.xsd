@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Statistics" msprop:Generator_TableClassName="StatisticsDataTable" msprop:Generator_TableVarName="tableStatistics" msprop:Generator_RowChangedName="StatisticsRowChanged" msprop:Generator_TablePropName="Statistics" msprop:Generator_RowDeletingName="StatisticsRowDeleting" msprop:Generator_RowChangingName="StatisticsRowChanging" msprop:Generator_RowEvHandlerName="StatisticsRowChangeEventHandler" msprop:Generator_RowDeletedName="StatisticsRowDeleted" msprop:Generator_RowClassName="StatisticsRow" msprop:Generator_UserTableName="Statistics" msprop:Generator_RowEvArgName="StatisticsRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="ScoreC1" msprop:Generator_ColumnVarNameInTable="columnScoreC1" msprop:Generator_ColumnPropNameInRow="ScoreC1" msprop:Generator_ColumnPropNameInTable="ScoreC1Column" msprop:Generator_UserColumnName="ScoreC1" type="xs:int" default="-1" minOccurs="0" />
+              <xs:element name="ScoreC2" msprop:Generator_ColumnVarNameInTable="columnScoreC2" msprop:Generator_ColumnPropNameInRow="ScoreC2" msprop:Generator_ColumnPropNameInTable="ScoreC2Column" msprop:Generator_UserColumnName="ScoreC2" type="xs:int" default="-1" minOccurs="0" />
+              <xs:element name="ScoreC3" msprop:Generator_ColumnVarNameInTable="columnScoreC3" msprop:Generator_ColumnPropNameInRow="ScoreC3" msprop:Generator_ColumnPropNameInTable="ScoreC3Column" msprop:Generator_UserColumnName="ScoreC3" type="xs:int" default="-1" minOccurs="0" />
+              <xs:element name="CorrectAnswersC1" msprop:Generator_ColumnVarNameInTable="columnCorrectAnswersC1" msprop:Generator_ColumnPropNameInRow="CorrectAnswersC1" msprop:Generator_ColumnPropNameInTable="CorrectAnswersC1Column" msprop:Generator_UserColumnName="CorrectAnswersC1" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="WrongAnswersC1" msprop:Generator_ColumnVarNameInTable="columnWrongAnswersC1" msprop:Generator_ColumnPropNameInRow="WrongAnswersC1" msprop:Generator_ColumnPropNameInTable="WrongAnswersC1Column" msprop:Generator_UserColumnName="WrongAnswersC1" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="CorrectAnswersC2" msprop:Generator_ColumnVarNameInTable="columnCorrectAnswersC2" msprop:Generator_ColumnPropNameInRow="CorrectAnswersC2" msprop:Generator_ColumnPropNameInTable="CorrectAnswersC2Column" msprop:Generator_UserColumnName="CorrectAnswersC2" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="WrongAnswersC2" msprop:Generator_ColumnVarNameInTable="columnWrongAnswersC2" msprop:Generator_ColumnPropNameInRow="WrongAnswersC2" msprop:Generator_ColumnPropNameInTable="WrongAnswersC2Column" msprop:Generator_UserColumnName="WrongAnswersC2" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="CorrectAnswersC3" msprop:Generator_ColumnVarNameInTable="columnCorrectAnswersC3" msprop:Generator_ColumnPropNameInRow="CorrectAnswersC3" msprop:Generator_ColumnPropNameInTable="CorrectAnswersC3Column" msprop:Generator_UserColumnName="CorrectAnswersC3" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="WrongAnswersC3" msprop:Generator_ColumnVarNameInTable="columnWrongAnswersC3" msprop:Generator_ColumnPropNameInRow="WrongAnswersC3" msprop:Generator_ColumnPropNameInTable="WrongAnswersC3Column" msprop:Generator_UserColumnName="WrongAnswersC3" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="C1Time" msprop:Generator_ColumnVarNameInTable="columnC1Time" msprop:Generator_ColumnPropNameInRow="C1Time" msprop:Generator_ColumnPropNameInTable="C1TimeColumn" msprop:Generator_UserColumnName="C1Time" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="C2Time" msprop:Generator_ColumnVarNameInTable="columnC2Time" msprop:Generator_ColumnPropNameInRow="C2Time" msprop:Generator_ColumnPropNameInTable="C2TimeColumn" msprop:Generator_UserColumnName="C2Time" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="C3Time" msprop:Generator_ColumnVarNameInTable="columnC3Time" msprop:Generator_ColumnPropNameInRow="C3Time" msprop:Generator_ColumnPropNameInTable="C3TimeColumn" msprop:Generator_UserColumnName="C3Time" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="C1TestTime" msprop:Generator_ColumnVarNameInTable="columnC1TestTime" msprop:Generator_ColumnPropNameInRow="C1TestTime" msprop:Generator_ColumnPropNameInTable="C1TestTimeColumn" msprop:Generator_UserColumnName="C1TestTime" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="C2TestTime" msprop:Generator_ColumnVarNameInTable="columnC2TestTime" msprop:Generator_ColumnPropNameInRow="C2TestTime" msprop:Generator_ColumnPropNameInTable="C2TestTimeColumn" msprop:Generator_UserColumnName="C2TestTime" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="C3TestTime" msprop:Generator_ColumnVarNameInTable="columnC3TestTime" msprop:Generator_ColumnPropNameInRow="C3TestTime" msprop:Generator_ColumnPropNameInTable="C3TestTimeColumn" msprop:Generator_UserColumnName="C3TestTime" type="xs:int" default="0" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
