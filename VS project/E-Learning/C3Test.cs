@@ -19,6 +19,15 @@ namespace E_Learning
         {
             CD = new Countdown(25, 00, label11);
 
+            rangeSelectorControl1.Range1 = "1";
+            rangeSelectorControl1.Range2 = "20";
+            rangeSelectorControl2.Range1 = "0";
+            rangeSelectorControl2.Range2 = "1000";
+            rangeSelectorControl3.Range1 = "0";
+            rangeSelectorControl3.Range2 = "50";
+            rangeSelectorControl4.Range1 = "1000";
+            rangeSelectorControl4.Range2 = "5000";
+
             CenterToScreen();
         }
 

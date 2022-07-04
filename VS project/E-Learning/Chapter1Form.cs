@@ -63,7 +63,7 @@ namespace E_Learning
             {
                 MessageBox.Show("You already have taken this test. " + Environment.NewLine +
                     "Your final score on chapter 1 is :" + C1Score + "/100." + Environment.NewLine +
-                    "If you wish to re-take the test, either reset your statistics or reset the chapter individually from the statistics tab.","Attention!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    "If you wish to re-take the test, reset your statistics.","Attention!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
 

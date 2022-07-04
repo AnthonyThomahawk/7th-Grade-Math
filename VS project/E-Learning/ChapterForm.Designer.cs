@@ -34,19 +34,22 @@ namespace E_Learning
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.Control;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.button1.Location = new System.Drawing.Point(24, 57);
+            this.button1.Image = global::E_Learning.Properties.Resources.BookIconScaled;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.Location = new System.Drawing.Point(22, 42);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(205, 48);
+            this.button1.Size = new System.Drawing.Size(204, 48);
             this.button1.TabIndex = 4;
-            this.button1.Text = "1) Order of operations";
+            this.button1.Text = "Order of operations";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -66,7 +69,7 @@ namespace E_Learning
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(28, 9);
+            this.label1.Location = new System.Drawing.Point(287, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(141, 33);
             this.label1.TabIndex = 6;
@@ -75,30 +78,47 @@ namespace E_Learning
             // button3
             // 
             this.button3.BackColor = System.Drawing.SystemColors.Control;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.button3.Location = new System.Drawing.Point(24, 125);
+            this.button3.Image = global::E_Learning.Properties.Resources.BookIconScaled;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.Location = new System.Drawing.Point(22, 96);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(205, 48);
+            this.button3.Size = new System.Drawing.Size(204, 48);
             this.button3.TabIndex = 7;
-            this.button3.Text = "2) Natural numbers";
+            this.button3.Text = "Natural numbers";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.SystemColors.Control;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.button4.Location = new System.Drawing.Point(24, 193);
+            this.button4.Image = global::E_Learning.Properties.Resources.BookIconScaled;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button4.Location = new System.Drawing.Point(22, 150);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(205, 48);
+            this.button4.Size = new System.Drawing.Size(204, 48);
             this.button4.TabIndex = 8;
-            this.button4.Text = "3) Inequalities";
+            this.button4.Text = "Inequalities";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.SystemColors.Control;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button5.Image = global::E_Learning.Properties.Resources.worksheeticonscaled;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button5.Location = new System.Drawing.Point(22, 204);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(204, 48);
+            this.button5.TabIndex = 9;
+            this.button5.Text = "Final exam";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // ChapterForm
             // 
@@ -107,6 +127,7 @@ namespace E_Learning
             this.BackgroundImage = global::E_Learning.Properties.Resources.mathbackground_scaled;
             this.ClientSize = new System.Drawing.Size(503, 286);
             this.ControlBox = false;
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
@@ -127,5 +148,6 @@ namespace E_Learning
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }

@@ -12,7 +12,7 @@
   <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="Statistics" msprop:Generator_TableClassName="StatisticsDataTable" msprop:Generator_TableVarName="tableStatistics" msprop:Generator_RowChangedName="StatisticsRowChanged" msprop:Generator_TablePropName="Statistics" msprop:Generator_RowDeletingName="StatisticsRowDeleting" msprop:Generator_RowChangingName="StatisticsRowChanging" msprop:Generator_RowEvHandlerName="StatisticsRowChangeEventHandler" msprop:Generator_RowDeletedName="StatisticsRowDeleted" msprop:Generator_RowClassName="StatisticsRow" msprop:Generator_UserTableName="Statistics" msprop:Generator_RowEvArgName="StatisticsRowChangeEvent">
+        <xs:element name="Statistics" msprop:Generator_TableClassName="StatisticsDataTable" msprop:Generator_TableVarName="tableStatistics" msprop:Generator_TablePropName="Statistics" msprop:Generator_RowDeletingName="StatisticsRowDeleting" msprop:Generator_RowChangingName="StatisticsRowChanging" msprop:Generator_RowEvHandlerName="StatisticsRowChangeEventHandler" msprop:Generator_RowDeletedName="StatisticsRowDeleted" msprop:Generator_UserTableName="Statistics" msprop:Generator_RowChangedName="StatisticsRowChanged" msprop:Generator_RowEvArgName="StatisticsRowChangeEvent" msprop:Generator_RowClassName="StatisticsRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
@@ -31,6 +31,7 @@
               <xs:element name="C1TestTime" msprop:Generator_ColumnVarNameInTable="columnC1TestTime" msprop:Generator_ColumnPropNameInRow="C1TestTime" msprop:Generator_ColumnPropNameInTable="C1TestTimeColumn" msprop:Generator_UserColumnName="C1TestTime" type="xs:int" default="0" minOccurs="0" />
               <xs:element name="C2TestTime" msprop:Generator_ColumnVarNameInTable="columnC2TestTime" msprop:Generator_ColumnPropNameInRow="C2TestTime" msprop:Generator_ColumnPropNameInTable="C2TestTimeColumn" msprop:Generator_UserColumnName="C2TestTime" type="xs:int" default="0" minOccurs="0" />
               <xs:element name="C3TestTime" msprop:Generator_ColumnVarNameInTable="columnC3TestTime" msprop:Generator_ColumnPropNameInRow="C3TestTime" msprop:Generator_ColumnPropNameInTable="C3TestTimeColumn" msprop:Generator_UserColumnName="C3TestTime" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="ScoreFinal" msprop:Generator_ColumnVarNameInTable="columnScoreFinal" msprop:Generator_ColumnPropNameInRow="ScoreFinal" msprop:Generator_ColumnPropNameInTable="ScoreFinalColumn" msprop:Generator_UserColumnName="ScoreFinal" type="xs:int" default="-1" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

@@ -24,3 +24,4 @@ C:\Users\BladeZ\source\repos\E-Learning\E-Learning\obj\Debug\E_Learning.C3Test.r
 C:\Users\BladeZ\source\repos\E-Learning\E-Learning\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 C:\Users\BladeZ\source\repos\E-Learning\E-Learning\obj\Debug\E-Learning.csproj.Fody.CopyLocal.cache
 C:\Users\BladeZ\source\repos\E-Learning\E-Learning\obj\Debug\E_Learning.StatisticsView.resources
+C:\Users\BladeZ\source\repos\E-Learning\E-Learning\obj\Debug\E_Learning.FinalTest.resources

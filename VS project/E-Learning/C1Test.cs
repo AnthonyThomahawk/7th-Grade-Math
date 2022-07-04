@@ -129,7 +129,7 @@ namespace E_Learning
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar); // only handle if user types a number
         }
     }
 }

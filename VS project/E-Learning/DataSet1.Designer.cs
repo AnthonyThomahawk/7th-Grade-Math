@@ -311,6 +311,8 @@ namespace E_Learning {
             
             private global::System.Data.DataColumn columnC3TestTime;
             
+            private global::System.Data.DataColumn columnScoreFinal;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public StatisticsDataTable() {
@@ -474,6 +476,14 @@ namespace E_Learning {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn ScoreFinalColumn {
+                get {
+                    return this.columnScoreFinal;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -525,7 +535,8 @@ namespace E_Learning {
                         int C3Time, 
                         int C1TestTime, 
                         int C2TestTime, 
-                        int C3TestTime) {
+                        int C3TestTime, 
+                        int ScoreFinal) {
                 StatisticsRow rowStatisticsRow = ((StatisticsRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         id,
@@ -543,7 +554,8 @@ namespace E_Learning {
                         C3Time,
                         C1TestTime,
                         C2TestTime,
-                        C3TestTime};
+                        C3TestTime,
+                        ScoreFinal};
                 rowStatisticsRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowStatisticsRow);
                 return rowStatisticsRow;
@@ -582,6 +594,7 @@ namespace E_Learning {
                 this.columnC1TestTime = base.Columns["C1TestTime"];
                 this.columnC2TestTime = base.Columns["C2TestTime"];
                 this.columnC3TestTime = base.Columns["C3TestTime"];
+                this.columnScoreFinal = base.Columns["ScoreFinal"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -619,6 +632,8 @@ namespace E_Learning {
                 base.Columns.Add(this.columnC2TestTime);
                 this.columnC3TestTime = new global::System.Data.DataColumn("C3TestTime", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnC3TestTime);
+                this.columnScoreFinal = new global::System.Data.DataColumn("ScoreFinal", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnScoreFinal);
                 this.columnid.AllowDBNull = false;
                 this.columnScoreC1.DefaultValue = ((int)(-1));
                 this.columnScoreC2.DefaultValue = ((int)(-1));
@@ -635,6 +650,7 @@ namespace E_Learning {
                 this.columnC1TestTime.DefaultValue = ((int)(0));
                 this.columnC2TestTime.DefaultValue = ((int)(0));
                 this.columnC3TestTime.DefaultValue = ((int)(0));
+                this.columnScoreFinal.DefaultValue = ((int)(-1));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1028,6 +1044,22 @@ namespace E_Learning {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public int ScoreFinal {
+                get {
+                    try {
+                        return ((int)(this[this.tableStatistics.ScoreFinalColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'ScoreFinal\' in table \'Statistics\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableStatistics.ScoreFinalColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public bool IsScoreC1Null() {
                 return this.IsNull(this.tableStatistics.ScoreC1Column);
             }
@@ -1204,6 +1236,18 @@ namespace E_Learning {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetC3TestTimeNull() {
                 this[this.tableStatistics.C3TestTimeColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsScoreFinalNull() {
+                return this.IsNull(this.tableStatistics.ScoreFinalColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetScoreFinalNull() {
+                this[this.tableStatistics.ScoreFinalColumn] = global::System.Convert.DBNull;
             }
         }
         

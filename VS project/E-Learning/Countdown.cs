@@ -14,7 +14,7 @@ namespace E_Learning
         int Min;
         int Sec;
 
-        Boolean minuteElapsed = false;
+        bool minuteElapsed = false;
 
         public Countdown(int Min_, int Sec_, Label L)
         {

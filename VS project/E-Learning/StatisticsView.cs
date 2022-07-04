@@ -29,9 +29,10 @@ namespace E_Learning
             int scoreC1 = (int)MainForm.Obj.UserRow["ScoreC1"];
             int scoreC2 = (int)MainForm.Obj.UserRow["ScoreC2"];
             int scoreC3 = (int)MainForm.Obj.UserRow["ScoreC3"];
+            int scoreFinal = (int)MainForm.Obj.UserRow["ScoreFinal"];
 
             int avgScore;
-            int scoreCount = 3;
+            int scoreCount = 4;
 
             // show data to the labels
             if (scoreC1 == -1)
@@ -64,6 +65,16 @@ namespace E_Learning
             {
                 label10.Text = "Chapter 3 exam : " + scoreC3;
             }
+            if (scoreFinal == -1)
+            {
+                label11.Text = "Final exam : N/A";
+                scoreCount--;
+                scoreFinal = 0;
+            }
+            else
+            {
+                label11.Text = "Final exam : " + scoreFinal;
+            }
 
             if (scoreCount == 0)
             {
@@ -71,7 +82,7 @@ namespace E_Learning
             }
             else
             {
-                avgScore = (scoreC1 + scoreC2 + scoreC3) / scoreCount;
+                avgScore = (scoreC1 + scoreC2 + scoreC3 + scoreFinal) / scoreCount;
                 label2.Text = "Average exam grade : " + avgScore;
             }
 
@@ -94,6 +105,7 @@ namespace E_Learning
             chart1.Series["Examscore"].Points.AddXY("Chapter 1", scoreC1);
             chart1.Series["Examscore"].Points.AddXY("Chapter 2", scoreC2);
             chart1.Series["Examscore"].Points.AddXY("Chapter 3", scoreC3);
+            chart1.Series["Examscore"].Points.AddXY("Final", scoreFinal);
 
             //retrieve data from db
             int correctAnswersC1 = (int)MainForm.Obj.UserRow["CorrectAnswersC1"];
