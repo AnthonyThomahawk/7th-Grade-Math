@@ -28,11 +28,12 @@ All the educational material is from [SplashLearn](splashlearn.com), specificall
 
 # Compiling this project
 To compile this project, you must have Visual studio 2019 or newer installed. You must also have C# packages installed and .NET 4.7.6 or newer. <br>
-After you install the IDE and all the necessary components, simply clone this repository and open "E-Learning.sln" found in "E-Learning" folder, which will open the project itself in Visual studio. 
+After you install the IDE and all the necessary components, simply clone this repository and open "E-Learning.sln" found in "VS Project" folder, which will open the project itself in Visual studio. 
 <br>From there, you can hit Ctrl+Shift+B to start the build process. The executable produced will be located in E-Learning/bin/E-Learning.exe .
 
 # False positives from Antiviruses
 Many security products flag this software as a trojan (which is clearly false), the reason is probably the use of Fody-Costura for embedding the custom control DLL into the application.
+<<<<<<< HEAD
 
 # Screenshots
 ### Login screen
@@ -47,3 +48,5 @@ Many security products flag this software as a trojan (which is clearly false), 
 ![i5](chapter1exam.bmp)
 ### Statistics menu
 ![i6](statscreen.png)
+=======
+>>>>>>> 5955869cabcab8bf659c6df2ddb4213e3ab930f7
