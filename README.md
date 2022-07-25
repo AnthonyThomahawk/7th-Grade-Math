@@ -33,3 +33,17 @@ After you install the IDE and all the necessary components, simply clone this re
 
 # False positives from Antiviruses
 Many security products flag this software as a trojan (which is clearly false), the reason is probably the use of Fody-Costura for embedding the custom control DLL into the application.
+
+# Screenshots
+### Login screen
+![i1](login.bmp)
+### Main menu
+![i2](mainscreen.bmp)
+### Chapters menu
+![i3](chapters.bmp)
+### Chapter 1 menu
+![i4](chapter1.bmp)
+### Chapter 1 Exam
+![i5](chapter1exam.bmp)
+### Statistics menu
+![i6](statscreen.png)
