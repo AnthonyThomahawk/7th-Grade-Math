@@ -1,6 +1,6 @@
 # About this project
 ### Project short description
-This is an educational program for learning 7th grade math to high school students. It contains 3 chapters (Order of operations, Natural numbers and Inequalities).<br>
+This is an educational program for teaching 7th grade math to high school students. It contains 3 chapters (Order of operations, Natural numbers and Inequalities).<br>
 ### Project implementation
 This software was written in C#, and utilizes Winforms and .NET 4.7.6<br>
 ### Project dependencies
