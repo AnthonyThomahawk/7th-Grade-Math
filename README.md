@@ -9,7 +9,7 @@ To include the .dll of the above custom control, NuGet package Fody-Costura was 
 *Both of these dependencies are already included in the project folder, so you dont have to download/install anything.*<br>
 ### System requirements to run the application
 The user must have a machine with Windows 7 or newer, and .NET 4.7.6 or newer installed. 
-Note : .NET 4.8 comes pre-installed on recent versions of Windows 10 and 11.
+<br>Note : .NET 4.8 comes pre-installed on recent versions of Windows 10 and 11.
 # Project description
 This educational software, contains 3 chapters. Users start by creating an account, and then study each chapter in order (meaning they have to study chapter 1 before advancing to chapter 2.). At the end of each chapter, the user will have to take a timed test, and the performance of each test is recorded to the user's statistics. There is also a final test, with questions from all chapters.
 # User login/register
